@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #fdffff;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	max-width: 90%;
+	width: 400px;
+	margin: 80px auto;
+}
+
+.formulario input[type='text'] {
+	padding: 20px;
+	border: none;
+	background: #e7e7e7;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .btn {
+	width: 100%;
+	border: none;
+	background: rgb(255, 136, 0);
+	color: #fff;
+	cursor: pointer;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .btn:hover {
+	background: rgb(250, 170, 79);
+}
+
+.contenedorQR {
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+}
